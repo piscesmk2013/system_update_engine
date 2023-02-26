@@ -75,10 +75,6 @@ cc_defaults {
     ],
     ldflags: ["-Wl,--gc-sections"],
 
-    lto: {
-        never: true,
-    },
-
     product_variables: {
         pdk: {
             enabled: false,
